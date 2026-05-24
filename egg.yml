@@ -1,0 +1,12 @@
+name: 自动煮鸡蛋
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 打个招呼
+        run: echo "叮！鸡蛋煮好了，我是90岁最酷的程序员！"
